@@ -1,0 +1,72 @@
+{"data": {
+        "venues": [{
+          "name": "Yapsody",
+          "code": "YPS",
+          "status": "active",
+          "timezone": "America/Phoenix",
+          "events": [{
+            "title1": "Cultural Fest Carnival",
+            "title2": "Reserved Event",
+            "location": "Borivali",
+            "location_type": "Physical",
+            "status": "active",
+            "performances": [{
+              "show_start_datetime": "2016-10-23 13:00:00",
+              "show_end_datetime": "2017-01-01 23:00:00",
+              "sale_start": "immediate",
+              "status": "active",
+              "ticket_capacity": 200
+            }]
+          }, {
+            "title1": "test event",
+            "title2": "General Admission",
+            "location": "Kandivali",
+            "location_type": "Web",
+            "status": "inactive",
+            "performances": [{
+              "show_start_datetime": "2018-11-20 13:00:00",
+              "show_end_datetime": "2019-02-01 23:00:00",
+              "sale_start": "immediate",
+              "status": "active",
+              "ticket_capacity": 100
+            }, {
+              "show_start_datetime": "2018-12-20 13:00:00",
+              "show_end_datetime": "2019-02-03 23:00:00",
+              "sale_start": "immediate",
+              "status": "inactive",
+              "ticket_capacity": 50
+            }]
+          }]
+        }, {
+          "name": "Carnival",
+          "code": "CRN",
+          "status": "inactive",
+          "timezone": "Asia/Kolkata",
+          "events": [{
+            "title1": "The Wolf RS",
+            "title2": "Test event",
+            "location": "Malad (East)",
+            "location_type": "Physical",
+            "status": "active",
+            "performances": [{
+              "show_start_datetime": "2018-01-11 13:00:00",
+              "show_end_datetime": "2019-12-01 21:00:00",
+              "sale_start": "immediate",
+              "status": "active",
+              "ticket_capacity": 400
+            }, {
+              "show_start_datetime": "2018-01-12 10:00:00",
+              "show_end_datetime": "2019-01-03 21:00:00",
+              "sale_start": "immediate",
+              "status": "inactive",
+              "ticket_capacity": 100
+            }, {
+              "show_start_datetime": "2018-11-01 14:00:00",
+              "show_end_datetime": "2019-04-03 23:00:00",
+              "sale_start": "immediate",
+              "status": "active",
+              "ticket_capacity": 300
+            }]
+          }]
+        }]
+      }}
