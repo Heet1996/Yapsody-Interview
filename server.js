@@ -28,7 +28,6 @@ app.post('/signup',(req,res)=>{
 //Login API
 app.post('/login',(req,res)=>{
     let body=_.pick(req.body,['email_id','password']);
-    console.log(body);
     let user=new User(body);
     user.findUser()
         .then((token)=>{userToken=token;res.status(200).header({'x-auth':token}).send({message:'Logged in Successfully.',token:token})})
@@ -37,8 +36,10 @@ app.post('/login',(req,res)=>{
 
 //Create Event
 app.post('/createEvent',authenticate,(req,res)=>{
-    let venues=_.pick(req.body.data);
-    user.createEvent(venues)
+    
+    console.log("User authenticated");
+    // let venues=_.pick(req.body.data);
+    // user.createEvent(venues)
 })
 
 app.listen('3000',()=>{
